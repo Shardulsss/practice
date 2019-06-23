@@ -1,0 +1,17 @@
+Steps:
+
+1. Install facebook, sqlite3
+
+
+2. Make sure to edit token in FACEBOOKDATA.PY file.
+
+
+3.MAKE sure to edit keyword in FACEBOOKDATA.py file at line 57.
+
+
+THANKS.
+
+
+
+
+by shradul

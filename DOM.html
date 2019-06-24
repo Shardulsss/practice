@@ -1,0 +1,52 @@
+<html>
+<head>
+	<script>
+		function changer()
+		{
+		document.getElementById("p1").innerHTML="DONE";
+		}
+		function changer2()
+		{
+		document.getElementById("h1").innerHTML="new heading";
+		}
+		function changer3()
+		{
+		document.getElementById("img").src="vcet.jpg";
+		}
+		function changer4()
+		{
+		document.getElementById("a1").href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp";
+		}
+		function changer5()
+		{
+		document.getElementById("h1").style.color="Red";
+		}
+		function changer6()
+		{
+		var x=document.getElementsByTagName("img");
+		x[0].remove();
+		document.getElementById("b").style.color="Red";
+		}
+	</script>
+</head>
+
+<body>
+	<script>
+	
+	</script>
+	
+	
+	
+	<p id="p1">this is it</p><br>
+	<a id="a1" href="wwww.vcet.edu.in">VCET</a><br>
+	<h1 id="h1">old heading</h1><br>
+	<img id="img" src="zeal.jpg" width="200" height="200"><br>
+	<button type="button" onClick="changer()">change title</button><br>
+	<button type="button" onClick="changer2()">change heading</button><br>
+	<button type="button" onClick="changer3()">change picture</button><br>
+	<button type="button" onClick="changer4()">change link</button><br>
+	<button type="button" onClick="changer5()">change color</button><br>
+	<button id="b" type="button" onClick="changer6()">remove pic</button><br>
+</body>
+	
+</html>

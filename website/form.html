@@ -12,7 +12,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-  
+  <style>
+  		.btn {
+    background-color:#00bfff;
+    cursor:pointer;
+		}
+  </style>
 </head>
 <body>
 
@@ -42,22 +47,49 @@
 </div>
 
 
+
+ 
+
+
 <div class="container">
-
-
-	<div class="row">
-		<div class="col-sm-4">
-		</div>
-		<div class="col-sm-4">
-			<h3>Admissions started</h3>
-			<a href="form.html" class="btn btn-primary">Apply</a>
-		</div>
-	</div>
+  <h2>Application Form</h2>
+  <form action="done.html">
+  	<div class="form-group">
+      <label for="name">Full Name:</label>
+      <input type="text" class="form-control" id="fname" placeholder="Enter Name" name="fname">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label>Address:</label>
+      <input type="Address" class="form-control" id="add" placeholder="Enter Address" name="address">
+    </div>
+    <div class="form-group">
+      <label>Contact no:</label>
+      <input type="number" class="form-control" id="contact" placeholder="Enter contact number" name="num">
+    </div>
+    <div class="form-group">
+      <label>Percentile:</label>
+      <input type="number" class="form-control" id="Percentile" placeholder="Enter Percentile" name="per">
+    </div>
+    <div class="form-group">
+    	<label>Select Branch:</label>
+    <select name="Branch">
+    <option value="it">IT</option>
+    <option value="comps">COMPS</option>
+    <option value="extc">EXTC</option>
+    <option value="mech">MECH</option>
+  </select>
+</div>
+<br>
+    <button type="submit" class="btn" href="done.html">Submit</button>
+  </form>
 </div>
 
-
-
-
+<br>
+<br>
 
 </body>
 <footer class="jumbotron">
@@ -80,27 +112,6 @@
 </div>
 </footer>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

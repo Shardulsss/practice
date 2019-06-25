@@ -27,6 +27,24 @@
   background-size: cover;
 }
 </style>
+
+
+
+<script>
+function bigImg(x) {
+
+	
+  x.style.height = "300px";
+  x.style.width = "300px";
+}
+
+function normalImg(x) {
+  x.style.height = "265px";
+  x.style.width = "350px";
+}	
+
+
+</script>
 </head>
 
 
@@ -110,7 +128,7 @@
 		<div class="col-sm-4">
 			
 			
-			<img  class="img-thumbnail" src="vcet.jpg" alt="vcet" >
+			<img  class="img-thumbnail" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="vcet.jpg" alt="vcet" >
 			
 			
 			
